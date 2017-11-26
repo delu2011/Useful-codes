@@ -1,0 +1,2 @@
+Curl loop:
+while true; do sleep 1; curl https://website.com; echo -e '\n\n\n\n'$(date);done >> /tmp/output.txt
